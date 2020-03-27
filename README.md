@@ -10,11 +10,4 @@ cd DrugLinker
 python setup.py install
 ```
 
-Now download the open-access list of Drugbank identifiers and synonyms: 
 
-````
-
-curl -Lfv -o dbvocabulary.zip https://www.drugbank.ca/releases/5-1-5/downloads/all-drugbank-vocabulary
-unzip dbvocabulary.zip
-
-````
