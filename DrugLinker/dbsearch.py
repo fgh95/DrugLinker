@@ -8,7 +8,7 @@ def splitstr(inp_str):
     return [x.strip() for x in out_list]
 
 
-def perform_search(string_term, fromterminal=False):
+def get_ids(string_term, fromterminal=False):
     newdf = tabdata.fillna("")
     newdf["Synonyms"] = newdf["Synonyms"].apply(splitstr)
     for c, synlist in enumerate(newdf["Synonyms"].values):
@@ -28,4 +28,4 @@ if __name__ == "__main__":
     myterm = str(myterm)
     print("Term searched is: ", myterm)
     print("Here you have the DrugBank ID/s of the drugs matched: ")
-    perform_search(myterm, fromterminal=True)
+    get_ids(myterm, fromterminal=True)
