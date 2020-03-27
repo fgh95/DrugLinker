@@ -6,9 +6,9 @@ with open("README.md") as f:
 setup(
     name="DrugLinker",
     version="0.1.0",
-    packages=find_packages(),
     author="Ferran Gonzalez Hernandez",
     license="MIT",
+    packages="DrugLinker",
     install_requires=["pandas==1.0.3"],
     package_data={'DrugLinker': ["dbvocab.csv"]}
 
