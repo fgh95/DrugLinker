@@ -1,7 +1,7 @@
 import pandas as pd
 import pkg_resources
 
-path = "druglinker/dbvocab.csv"
+path = "dbvocab.csv"
 filepath = pkg_resources.resource_filename(__name__, path)
 tabdata = pd.read_csv(filepath)
 
