@@ -14,6 +14,7 @@ setup(
     license="MIT",
     packages=["druglinker"],
     install_requires=["pandas==1.0.3"],
-    include_package_data=True
+    include_package_data=True,
+    package_data={'druglinker': ['druglinker/dbvocab.csv']}
 
 )
