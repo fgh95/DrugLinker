@@ -8,7 +8,7 @@ First, let's install this package by running:
 ```
 git clone https://github.com/fgh95/DrugLinker
 cd DrugLinker
-python setup.py install
+pip install .
 ```
 
 Example of use: 
