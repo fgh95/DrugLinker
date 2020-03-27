@@ -12,9 +12,9 @@ setup(
     long_description=readme(),
     author="Ferran Gonzalez Hernandez",
     license="MIT",
-    packages=["druglinker"],
+    packages=find_packages(),
     install_requires=["pandas==1.0.3"],
     include_package_data=True,
-    package_data={'druglinker': ['druglinker/dbvocab.csv']}
+    package_data={'druglinker': ['dbvocab.csv']}
 
 )
