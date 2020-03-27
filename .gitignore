@@ -1,1 +1,4 @@
 .idea
+dist
+druglinker.egg-info
+build/lib/druglinker
