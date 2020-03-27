@@ -11,4 +11,10 @@ cd DrugLinker
 python setup.py install
 ```
 
+Example of use: 
 
+```
+from druglinker import dbsearch
+dbsearch.get_ids("amoxicillin")
+# output: ["DB01060"]
+```
