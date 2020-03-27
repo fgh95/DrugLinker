@@ -1,6 +1,9 @@
 import pandas as pd
+import pkg_resources
 
-tabdata = pd.read_csv("dbvocab.csv")
+path = "dbvocab.csv"
+filepath = pkg_resources.resource_filename(__name__, path)
+tabdata = pd.read_csv(filepath)
 
 
 def splitstr(inp_str):
