@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+
 def readme():
     with open("README.md") as f:
         return f.read()
@@ -8,7 +9,7 @@ def readme():
 setup(
     name="druglinker",
     version="0.1.0",
-    long_description = readme(),
+    long_description=readme(),
     author="Ferran Gonzalez Hernandez",
     license="MIT",
     packages=["druglinker"],
