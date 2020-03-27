@@ -5,8 +5,6 @@ path = "dbvocab.csv"
 filepath = pkg_resources.resource_filename(__name__, path)
 tabdata = pd.read_csv(filepath)
 
-a = 1
-
 
 def splitstr(inp_str):
     out_list = inp_str.lower().split("|")
