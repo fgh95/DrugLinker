@@ -6,12 +6,12 @@ def readme():
 
 
 setup(
-    name="DrugLinker",
+    name="druglinker",
     version="0.1.0",
     long_description = readme(),
     author="Ferran Gonzalez Hernandez",
     license="MIT",
-    packages=["DrugLinker"],
+    packages=["druglinker"],
     install_requires=["pandas==1.0.3"],
     include_package_data=True
 
