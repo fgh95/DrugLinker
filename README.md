@@ -1,6 +1,7 @@
 # DrugLinker
 
-This package is a very simple tool to obtain all unique drug identifiers that match a specific input string. It does so by matching synonyms with drugbank vocabulary of term synonyms. 
+This package is a very simple tool to obtain all unique drug identifiers that match a specific input string.
+ It does so by matching the input term with DrugBank open-data vocabulary : https://www.drugbank.ca/releases/latest#open-data. 
 
 First, let's install this package by running: 
 
