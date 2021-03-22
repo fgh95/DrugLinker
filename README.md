@@ -6,13 +6,13 @@ It is useful to process candidate drug tokens after drug named-entity recognitio
 
 To install the package simply run the following in a bash shell:
 
-```
+```bash
 pip install druglinker==0.1.1
 ```
 
 Example of use in a python environment: 
 
-```
+```python
 from druglinker import dbsearch
 dbsearch.get_ids("amox")
 # output: ["DB01060"]
