@@ -25,6 +25,8 @@ def get_ids(string_term, fromterminal=False):
     if not fromterminal:
         return identifiers
 
+def get_db_link(inp_id):
+    return f"https://www.drugbank.ca/drugs/{inp_id}"
 
 if __name__ == "__main__":
     myterm = input("Enter drug term to be search: ")
