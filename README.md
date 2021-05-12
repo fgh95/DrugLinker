@@ -1,6 +1,6 @@
 # DrugLinker
 
-This package is a simple python module to obtain all unique drug identifiers that match a given input string.
+This package is a fast and simple string-matching module to obtain all unique drug identifiers within an input string.
 It does it by matching the input term with DrugBank open-data vocabulary : https://www.drugbank.ca/releases/latest#open-data. 
 It is useful to process candidate drug tokens after drug named-entity recognition (NER) or to directly match sentences after tokenization.
 
